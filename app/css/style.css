@@ -43,4 +43,6 @@ html,
 body {
   font-family: "Poppins", sans-serif !important;
   scroll-behavior: smooth;
+
+  overflow-x: hidden;
 }
