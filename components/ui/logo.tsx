@@ -6,10 +6,18 @@ export default function Logo() {
   return (
     <Link href="/" className="inline-flex pl-2" aria-label="Cruip">
       <Image
-        className=""
+        className="sm:block hidden"
         src={ARTHUR}
         width={160}
         height={140}
+        alt="Arthur Logo"
+        draggable={false}
+      />
+      <Image
+        className="block sm:hidden"
+        src={ARTHUR}
+        width={100}
+        height={80}
         alt="Arthur Logo"
         draggable={false}
       />

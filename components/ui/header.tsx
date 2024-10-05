@@ -18,7 +18,7 @@ export default function Header() {
                 href="https://app.usearthur.co"
                 className="btn-sm bg-blue-800 hover:opacity-80 text-white shadow font-semibold"
               >
-                Try it out now!
+                Discover now!
               </Link>
             </li>
           </ul>
