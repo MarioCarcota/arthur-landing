@@ -24,7 +24,7 @@ export default function HeroHome() {
                   alt="Nasa international hackaton X Arthur"
                   draggable={false}
                 />
-                <span className="text-xl font-semibold">X</span>
+                <span className="text-lg font-semibold">x</span>
                 <Image
                   className=""
                   src={HFARM}
@@ -36,12 +36,11 @@ export default function HeroHome() {
               </div>
             </div>
             <h1
-              className="py-3 pointer-events-none whitespace-pre-wrap bg-gradient-to-br from-blue-800 to-zinc-200 bg-clip-text text-center text-8xl leading-thigth text-transparent mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.5),transparent)1] md:text-6xl"
+              className="py-3 pointer-events-none whitespace-pre-wrap bg-gradient-to-br from-blue-800 to-zinc-200 bg-clip-text text-center sm:text-8xl leading-thigth text-transparent mb-6 border-y text-5xl font-bold [border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.5),transparent)1] md:text-6xl"
               data-aos="zoom-y-out"
               data-aos-delay={150}
             >
-              Exploring space through
-              <br className="max-lg:hidden" />
+              Exploring space through{"   "} <br className="max-lg:hidden" />{" "}
               gamified AR experiences
             </h1>
             <div className="mx-auto max-w-3xl">
