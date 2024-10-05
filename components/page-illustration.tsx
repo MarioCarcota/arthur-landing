@@ -7,7 +7,7 @@ export default function PageIllustration() {
     <>
       {/* Stripes illustration */}
       <div
-        className="pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform"
+        className="opacity-10 pointer-events-none absolute left-1/2 top-0 -z-10 -translate-x-1/2 transform"
         aria-hidden="true"
       >
         <Image

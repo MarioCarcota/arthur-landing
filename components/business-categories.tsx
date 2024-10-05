@@ -183,6 +183,7 @@ export default function BusinessCategories() {
                     width={32}
                     height={32}
                     alt="Logo 01"
+                    draggable={false}
                   />
                 </div>
               </div>
