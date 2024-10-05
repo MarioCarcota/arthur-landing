@@ -15,11 +15,11 @@ import Particles from "@/components/ui/particle";
 export default function Home() {
   return (
     <>
-      <div className="absolute top-0 left-0 sm:opacity-100 opacity-70 ">
+      <div className="absolute w-full h-full sm:opacity-100 opacity-70  overflow-x-hidden">
         <Meteors number={15} />
       </div>
 
-      <div className="fixed w-full h-full justify-center items-center sm:opacity-100 opacity-70 ">
+      <div className="fixed w-full h-full justify-center items-center sm:opacity-100 opacity-70 overflow-hidden ">
         <Particles
           className="absolute inset-0"
           quantity={150}
