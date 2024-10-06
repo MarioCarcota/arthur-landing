@@ -15,10 +15,10 @@ export default function Header() {
           <ul className="flex flex-1 items-center justify-end gap-3">
             <li>
               <Link
-                href="https://app.usearthur.co"
-                className="btn-sm bg-blue-800 hover:opacity-80 text-white shadow font-semibold"
+                href="#"
+                className="disabled btn-sm bg-blue-800 hover:opacity-80 text-white shadow font-semibold"
               >
-                Discover now!
+                Coming Soon!
               </Link>
             </li>
           </ul>

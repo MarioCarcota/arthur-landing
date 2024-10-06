@@ -65,11 +65,11 @@ export default function HeroHome() {
                   data-aos-delay={450}
                 >
                   <Link
-                    href="https://app.usearthur.co"
-                    className="btn group mb-4 w-full bg-blue-800 hover:opacity-80 text-white shadow  sm:mb-0 sm:w-auto"
+                    href="#"
+                    className="btn disabled group mb-4 w-full bg-blue-800 hover:opacity-80 text-white shadow  sm:mb-0 sm:w-auto"
                   >
                     <span className="relative inline-flex font-semibold items-center">
-                      Discover Arthur now!
+                      Coming soon!
                     </span>
                   </Link>
                 </div>
