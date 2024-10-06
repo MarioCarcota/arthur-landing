@@ -7,7 +7,7 @@ import Link from "next/link";
 import ModalVideo from "./ui/modal-video";
 
 export default function HeroHome() {
-  const thumb = "https://startup-template-sage.vercel.app/hero-dark.png";
+  const thumb = "/demo/Heading.png";
   return (
     <section className="relative">
       <PageIllustration />
@@ -85,7 +85,7 @@ export default function HeroHome() {
               thumbWidth={768}
               thumbHeight={432}
               thumbAlt="Modal video thumbnail"
-              video="https://www.youtube.com/embed/qh3NGpYRG3I?si=4rb-zSdDkVK9qxxb"
+              video="/demo/demo.MOV"
               videoWidth={1920}
               videoHeight={1080}
             />
