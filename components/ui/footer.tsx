@@ -1,6 +1,6 @@
 import Link from "next/link";
-import Logo from "./logo";
 import { Globe, Instagram, Linkedin } from "lucide-react";
+import Logo from "./logo";
 
 export default function Footer({ border = false }: { border?: boolean }) {
   return (
